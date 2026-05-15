@@ -19,3 +19,5 @@ npm-debug.log*
 
 # React build
 frontend/build/
+#gitignore for backend
+.gitignore
