@@ -34,7 +34,7 @@ export default function App() {
     setReview(null);
 
     try {
-      const res = await fetch("http://localhost:3001/api/review", {
+      const res = await fetch("https://ai-code-reviewer-sdtc.onrender.com/api/review", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code, language }),
